@@ -1,0 +1,11 @@
+$content: "Voyage dans l'Ouest américain, septembre 2019";
+
+h1::before {
+  content: $content;
+  }
+
+#inscrire {
+  input:hover {
+    background-color: honeydew;
+  }
+}

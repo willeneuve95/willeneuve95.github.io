@@ -1,0 +1,63 @@
+<!DOCTYPE=HTML>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="C:\Users\William\Documents\CS50W\project0\images.css">
+    <link rel="stylesheet" href="C:\Users\William\Documents\CS50W\project0\style.css">
+    <link rel="stylesheet" href="C:\Users\William\Documents\CS50W\project0\titre.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voyage</title>
+  </head>
+  <body>
+
+    <h1></h1>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <p id="nav">Liste des endroits visités</p>
+          <a href="lasvegas.html" class="list-group-item list-group-item-action">Las Vegas</a></li>
+          <a href="zion.html" class="list-group-item list-group-item-action">Zion National Park</a></li>
+          <a href="bryce.html" class="list-group-item list-group-item-action">Bryce Canyon National Park</a></li>
+          <a href="hello.html" class="list-group-item list-group-item-action">Monument Valley</a></li>
+          <a href="hello.html" class="list-group-item list-group-item-action">Grand Canyon National Park</a></li>
+          <a href="hello.html" class="list-group-item list-group-item-action">Hoover Dam</a></li>
+        </div>
+        <div class="col-md-9">
+          <img src="..\20190928_110254.jpg" class="index_image">
+        </div>
+      </div>
+      <div class="row" id= "row2">
+        <div class="col-md-6">
+          <p class="p_row2">Inscrivez-vous pour recevoir des nouvelles de nos futurs voyages !</p>
+          <form id=inscrire>
+          <input type="text" id="prenom" placeholder="Prénom"><br>
+          <input type="text" id="nom" placeholder="Nom"><br>
+          <input type="email" id="courriel" placeholder="Adresse courriel"><br>
+        </form>
+        <button type="button" class="btn btn-primary" onclick="window.location.href='inscription.html'">S'inscrire</button>
+        </div>
+        <div class="col-md-6">
+          <p class="p_row2"> Quel est l'endroit que vous préféreriez visiter ? </p>
+          <form id=prefere>
+            <input type="radio" name="place" id="Las Vegas">
+            <label for="Las Vegas">Las Vegas</label><br>
+            <input type="radio" name="place" id="Zion National Park">
+            <label for="Zion National Park">Zion National Park</label><br>
+            <input type="radio" name="place" id="Bryce Canyon National Park">
+            <label for="Bryce Canyon National Park">Bryce Canyon National Park</label><br>
+            <input type="radio" name="place" id="Monument Valley">
+            <label for="Monument Valley">Monument Valley</label><br>
+            <input type="radio" name="place" id="Grand Canyon National Park">
+            <label for="Grand Canyon National Park">Grand Canyon National Park</label><br>
+            <input type="radio" name="place" id="Hoover Dam">
+            <label for="Hoover Dam">Hoover Dam</label><br>
+          </form>
+          <button type="button" class="btn btn-primary" onclick="window.location.href='vote.html'">Voter!</button>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid" id="foot">
+        <p>William Villeneuve, 2020</p>
+    </div>
+ </body>

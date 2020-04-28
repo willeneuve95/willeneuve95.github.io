@@ -1,0 +1,16 @@
+.places_image, .index_image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+.index_image {
+  width: 70%;
+}
+
+.places_image {
+  width: 100%;
+}
+
+/*# sourceMappingURL=images.css.map */
